@@ -1,0 +1,8 @@
+"""MyClass is an example class for demonstration purposes.
+
+    This class has a single property, `x`, and a single method, `hello()`.
+
+    Attributes:
+        x (int): A property that holds a value.
+
+    """

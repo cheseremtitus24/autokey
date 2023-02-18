@@ -1,0 +1,5 @@
+ """Get or set the value of the `x` property.
+
+        Returns:
+            int: The value of the `x` property.
+        """

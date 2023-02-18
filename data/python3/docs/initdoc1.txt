@@ -1,0 +1,4 @@
+"""A simple example class.
+
+    This class has a single property, `x`, and a single method, `hello()`.
+    """

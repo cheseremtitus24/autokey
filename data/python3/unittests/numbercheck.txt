@@ -1,0 +1,13 @@
+import io
+def test_stdout_rectangle(self):
+          # redirect stdout to a buffer
+          sys.stdout = io.StringIO()
+          # call the function that should print something
+          self.b0 = self.Rectangle(4, 6)
+          self.b0.display()
+          # get the contents of the buffer
+          output = sys.stdout.getvalue()
+          # check the contents against expected output
+          self.assertEqual(output, "####\n####\n####\n####\n####\n####\n"  )
+          # reset stdout
+          sys.stdout = sys.__stdout__

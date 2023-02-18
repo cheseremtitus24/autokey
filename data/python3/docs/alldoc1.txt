@@ -1,0 +1,77 @@
+"""calculator.py
+
+This module contains the `Calculator` class, a simple calculator class with four basic arithmetic methods: add, subtract, multiply and divide.
+
+"""
+
+class Calculator:
+    """A simple calculator class.
+
+    This class has four basic arithmetic methods: add, subtract, multiply and divide.
+
+    Attributes:
+        result (float): A property that holds the result of the last operation.
+
+    """
+
+    def __init__(self):
+        """Create a new Calculator instance.
+
+        """
+        self.result = 0
+
+    def add(self, a: float, b: float) -> float:
+        """Add two numbers.
+
+        Args:
+            a (float): The first number.
+            b (float): The second number.
+
+        Returns:
+            float: The result of adding `a` and `b`.
+
+        """
+        self.result = a + b
+        return self.result
+
+    def subtract(self, a: float, b: float) -> float:
+        """Subtract one number from another.
+
+        Args:
+            a (float): The first number.
+            b (float): The second number.
+
+        Returns:
+            float: The result of subtracting `b` from `a`.
+
+        """
+        self.result = a - b
+        return self.result
+
+    def multiply(self, a: float, b: float) -> float:
+        """Multiply two numbers.
+
+        Args:
+            a (float): The first number.
+            b (float): The second number.
+
+        Returns:
+            float: The result of multiplying `a` and `b`.
+
+        """
+        self.result = a * b
+        return self.result
+
+    def divide(self, a: float, b: float) -> float:
+        """Divide one number by another.
+
+        Args:
+            a (float): The first number.
+            b (float): The second number.
+
+        Returns:
+            float: The result of dividing `a` by `b`.
+
+        """
+        self.result = a / b
+        return self.result
